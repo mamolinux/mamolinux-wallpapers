@@ -1,0 +1,14 @@
+Source: freedom-wallpapers
+Section: gnome
+Priority: extra
+Homepage: https://github.com/hsbasu/freedom-wallpapers
+Maintainer: Himadri Sekhar Basu <hsb10@iitbbs.ac.in>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 3.9.5
+
+Package: freedom-wallpapers
+Architecture: all
+Depends: ${misc:Depends}
+Description: Wallpapers for Freedom OS.
+  Contains backgrounds for desktop, login-screen
+  and grub.
