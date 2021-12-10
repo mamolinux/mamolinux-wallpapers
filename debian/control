@@ -1,14 +1,14 @@
-Source: freedom-wallpapers
+Source: mamolinux-wallpapers
 Section: gnome
 Priority: extra
-Homepage: https://github.com/hsbasu/freedom-wallpapers
+Homepage: https://github.com/hsbasu/mamolinux-wallpapers
 Maintainer: Himadri Sekhar Basu <hsb10@iitbbs.ac.in>
 Build-Depends: debhelper (>= 10)
 Standards-Version: 3.9.5
 
-Package: freedom-wallpapers
+Package: mamolinux-wallpapers
 Architecture: all
 Depends: ${misc:Depends}
-Description: Wallpapers for Freedom OS.
+Description: Wallpapers for MamoLinux.
   Contains backgrounds for desktop, login-screen
   and grub.

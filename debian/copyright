@@ -1,7 +1,7 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: freedom-wallpapers
+Upstream-Name: mamolinux-wallpapers
 Upstream-Contact: Himadri Sekhar Basu <hsb10@iitbbs.ac.in>
-Source: https://github.com/hsbasu/freedom-wallpapers
+Source: https://github.com/hsbasu/mamolinux-wallpapers
 
 Files: *
 Copyright: 2021 Himadri Sekhar Basu <hsb10@iitbbs.ac.in> and Contributors
