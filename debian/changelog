@@ -1,4 +1,4 @@
-mamolinux-wallpapers (22.04.0) UNRELEASED; urgency=medium
+mamolinux-wallpapers (22.04.0) jammy; urgency=medium
 
   * Repackage debian
   * Add some jellyfish wallpapers
@@ -7,7 +7,7 @@ mamolinux-wallpapers (22.04.0) UNRELEASED; urgency=medium
   * d/compat: remove
   * d/rules: update
 
- -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Mon, 27 Jun 2022 08:33:39 +0530
+ -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Mon, 27 Jun 2022 08:49:33 +0530
 
 mamolinux-wallpapers (20.04.0) focal; urgency=medium
 
