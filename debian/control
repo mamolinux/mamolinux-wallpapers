@@ -1,14 +1,17 @@
 Source: mamolinux-wallpapers
 Section: gnome
-Priority: extra
-Homepage: https://github.com/hsbasu/mamolinux-wallpapers
+Priority: optional
 Maintainer: Himadri Sekhar Basu <hsb10@iitbbs.ac.in>
-Build-Depends: debhelper (>= 10)
-Standards-Version: 3.9.5
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.0
+Homepage: https://github.com/hsbasu/mamolinux-wallpapers
+#Vcs-Browser: https://salsa.debian.org/debian/mamolinux-wallpapers
+#Vcs-Git: https://salsa.debian.org/debian/mamolinux-wallpapers.git
+Rules-Requires-Root: no
 
 Package: mamolinux-wallpapers
-Architecture: all
+Architecture: any
 Depends: ${misc:Depends}
-Description: Wallpapers for MamoLinux.
-  Contains backgrounds for desktop, login-screen
-  and grub.
+Description: Wallpapers for MamoLinux
+ Contains backgrounds for desktop, login-screen
+ and grub to be used by MamoLinux
