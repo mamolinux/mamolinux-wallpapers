@@ -10,8 +10,17 @@ Homepage: https://github.com/hsbasu/mamolinux-wallpapers
 Rules-Requires-Root: no
 
 Package: mamolinux-wallpapers
-Architecture: any
-Depends: ${misc:Depends}
+Architecture: all
+Section: metapackages
+Depends: mamolinux-wallpapers-jammy,
+         ${misc:Depends}
 Description: Wallpapers for MamoLinux
  Contains backgrounds for desktop, login-screen
  and grub to be used by MamoLinux
+
+Package: mamolinux-wallpapers-jammy
+Architecture: all
+Depends: ${misc:Depends}
+Description: Wallpapers for MamoLinux
+ Contains backgrounds for desktop, login-screen
+ and grub to be used by MamoLinux 22.04
