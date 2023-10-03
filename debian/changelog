@@ -1,3 +1,16 @@
+mamolinux-wallpapers (22.04.2) jammy; urgency=medium
+
+  * Create separate binary for common wallpapers (#7)
+    - Add common wallpapers to mamolinux-wallpapers-common
+    - Keep release specific wallpapers in
+      mamolinux-wallpapers-jammy
+    - Add mamolinux-wallpapers-common as dependency to
+      mamolinux-wallpapers
+    - Add ubuntu wallpapers as dependency
+  * Add repo specific info to readme (#6)
+
+ -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Tue, 03 Oct 2023 11:05:55 +0530
+
 mamolinux-wallpapers (22.04.1) stable; urgency=medium
 
   * Add workflow to update mamolinux/stable branch
