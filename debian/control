@@ -12,11 +12,20 @@ Rules-Requires-Root: no
 Package: mamolinux-wallpapers
 Architecture: all
 Section: metapackages
-Depends: mamolinux-wallpapers-jammy,
+Depends: mamolinux-wallpapers-common,
+         mamolinux-wallpapers-jammy,
+         ubuntu-wallpapers-jammy,
          ${misc:Depends}
 Description: Wallpapers for MamoLinux
  Contains backgrounds for desktop, login-screen
  and grub to be used by MamoLinux
+
+Package: mamolinux-wallpapers-common
+Architecture: all
+Depends: ${misc:Depends}
+Description: Common Wallpapers for MamoLinux
+ Contains common backgrounds for desktop, login-screen
+ and grub to be used by all MamoLinux versions
 
 Package: mamolinux-wallpapers-jammy
 Architecture: all
