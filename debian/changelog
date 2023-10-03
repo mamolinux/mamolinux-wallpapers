@@ -1,3 +1,9 @@
+mamolinux-wallpapers (23.04.2) lunar; urgency=medium
+
+  * Fix symlink to default wallpaper (#8)
+
+ -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Tue, 03 Oct 2023 22:19:30 +0530
+
 mamolinux-wallpapers (23.04.1) lunar; urgency=medium
 
   * Add repo specific info to readme (#6)
