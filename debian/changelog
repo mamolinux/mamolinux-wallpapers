@@ -1,3 +1,16 @@
+mamolinux-wallpapers (23.04.1) lunar; urgency=medium
+
+  * Add repo specific info to readme (#6)
+  * Create separate binary for common wallpapers (#5)
+    - Add common wallpapers to mamolinux-wallpapers-common
+    - Keep release specific wallpapers in
+      mamolinux-wallpapers-jammy and
+      mamolinux-wallpapers-lunar
+    - Add mamolinux-wallpapers-common as dependency to
+      mamolinux-wallpapers
+
+ -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Tue, 03 Oct 2023 10:38:46 +0530
+
 mamolinux-wallpapers (23.04) lunar; urgency=medium
 
   * Add wallpapers for lunar (#3)
