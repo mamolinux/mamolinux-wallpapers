@@ -1,3 +1,23 @@
+mamolinux-wallpapers (23.10.0) mantic; urgency=medium
+
+  * Move wallpapers to respective release directory (#10)
+    - create directory with release name and
+      move older wallpapers to the respective
+      directory
+  * New wallpapers for mantic (#9)
+    - New wallpapers for mantic featuring
+      West Bengal state of India
+  * rename wallpapers taken by me (#11)
+    - These will be used as default wallpapers
+      for mamolinux
+  * Wallpaper packaging for mantic (#12)
+    - create binary package mamolinux-wallpapers-mantic
+    - Update default wallpaper symlink
+    - Change section to x11
+    - Update homepage
+
+ -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Thu, 16 Nov 2023 12:03:36 +0530
+
 mamolinux-wallpapers (23.04.2) lunar; urgency=medium
 
   * Fix symlink to default wallpaper (#8)
