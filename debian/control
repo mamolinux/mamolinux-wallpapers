@@ -1,10 +1,10 @@
 Source: mamolinux-wallpapers
-Section: gnome
+Section: x11
 Priority: optional
 Maintainer: Himadri Sekhar Basu <hsb10@iitbbs.ac.in>
 Build-Depends: debhelper-compat (= 13)
 Standards-Version: 4.6.0
-Homepage: https://github.com/hsbasu/mamolinux-wallpapers
+Homepage: https://hsbasu.github.io/mamolinux-wallpapers
 #Vcs-Browser: https://salsa.debian.org/debian/mamolinux-wallpapers
 #Vcs-Git: https://salsa.debian.org/debian/mamolinux-wallpapers.git
 Rules-Requires-Root: no
@@ -13,8 +13,8 @@ Package: mamolinux-wallpapers
 Architecture: all
 Section: metapackages
 Depends: mamolinux-wallpapers-common,
-         mamolinux-wallpapers-lunar,
-         ubuntu-wallpapers-lunar,
+         mamolinux-wallpapers-mantic,
+         ubuntu-wallpapers-mantic,
          ${misc:Depends}
 Description: Wallpapers for MamoLinux
  Contains backgrounds for desktop, login-screen
@@ -40,3 +40,10 @@ Depends: ${misc:Depends}
 Description: Wallpapers for MamoLinux
  Contains backgrounds for desktop, login-screen
  and grub to be used by MamoLinux 23.04
+
+Package: mamolinux-wallpapers-mantic
+Architecture: all
+Depends: ${misc:Depends}
+Description: Wallpapers for MamoLinux
+ Contains backgrounds for desktop, login-screen
+ and grub to be used by MamoLinux 23.10
