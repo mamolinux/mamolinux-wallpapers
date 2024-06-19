@@ -1,3 +1,11 @@
+mamolinux-wallpapers (24.04.0) noble; urgency=medium
+
+  * Wallpaper packaging for noble (#13)
+    - create binary package mamolinux-wallpapers-noble
+    - Update default wallpaper symlink
+
+ -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Wed, 19 Jun 2024 19:48:35 +0530
+
 mamolinux-wallpapers (23.10.0) mantic; urgency=medium
 
   * Move wallpapers to respective release directory (#10)
