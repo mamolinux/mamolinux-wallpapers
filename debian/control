@@ -13,8 +13,8 @@ Package: mamolinux-wallpapers
 Architecture: all
 Section: metapackages
 Depends: mamolinux-wallpapers-common,
-         mamolinux-wallpapers-mantic,
-         ubuntu-wallpapers-mantic,
+         mamolinux-wallpapers-noble,
+         ubuntu-wallpapers-noble,
          ${misc:Depends}
 Description: Wallpapers for MamoLinux
  Contains backgrounds for desktop, login-screen
@@ -47,3 +47,10 @@ Depends: ${misc:Depends}
 Description: Wallpapers for MamoLinux
  Contains backgrounds for desktop, login-screen
  and grub to be used by MamoLinux 23.10
+
+Package: mamolinux-wallpapers-noble
+Architecture: all
+Depends: ${misc:Depends}
+Description: Wallpapers for MamoLinux
+ Contains backgrounds for desktop, login-screen
+ and grub to be used by MamoLinux 24.04
