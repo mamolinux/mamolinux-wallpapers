@@ -1,3 +1,15 @@
+mamolinux-wallpapers (24.10.1) oracular; urgency=medium
+
+  * New wallpapers for oracular
+    - Wallpapers for oracular featuring Andhra
+      Pradesh state of India
+  * Update debian packaging for oracular (#17)
+    - Move noble wallpapers
+    - create binary package mamolinux-wallpapers-oracular
+      and add oracular wallpapers
+
+ -- Himadri Sekhar Basu <mamolinux@mamolinux.org>  Thu, 22 May 2025 11:30:11 +0530
+
 mamolinux-wallpapers (24.04.1) noble; urgency=medium
 
   * Move mantic wallpapers to respective directory (#14)
