@@ -54,3 +54,10 @@ Depends: ${misc:Depends}
 Description: Wallpapers for MamoLinux
  Contains backgrounds for desktop, login-screen
  and grub to be used by MamoLinux 24.04
+
+Package: mamolinux-wallpapers-oracular
+Architecture: all
+Depends: ${misc:Depends}
+Description: Wallpapers for MamoLinux
+ Contains backgrounds for desktop, login-screen
+ and grub to be used by MamoLinux 24.10
